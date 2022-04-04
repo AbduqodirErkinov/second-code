@@ -1,0 +1,164 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    
+    
+}
+.main{
+    width: 750px;
+    height: 100vh;
+    border: 1px solid lightblue;
+    display: flex;
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+.left_side li{
+    list-style: none;
+}
+.left_side .p{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+.left_side .a{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    padding: 7px;
+    width: 275px;
+    border-radius: 5px;
+}
+.left_side .a:hover{
+    background: lightblue;
+    padding: 7px;
+    transition: 0.3s;
+    opacity: 0.9;
+}
+.left_side .a a{
+    color: #1a73e8 ;
+   
+
+}
+.left_side .create{
+font-size: 22px;
+margin-top: 20px;
+color: black;
+}
+.Names{
+    margin-top: 30px;
+}
+.Names input{
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    text-indent: 10px;
+
+}
+.Names input:last-child{
+     margin-left: 10px;
+}
+.email{
+    margin-top: 24px;
+    height: 35px;
+    border: 1px solid lightblue;
+    width: 355px;
+    border-radius: 5px;
+
+}
+.email input{
+    height: 33px;
+    border: none;
+    text-indent: 10px;
+  
+
+}
+.email input:last-child{
+    margin-left: 2.5px;
+    text-indent: 90px;
+   
+}
+.Password{
+    margin-top: 30px;
+}
+.Password input{
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    text-indent: 10px;
+}
+.Password input:last-child{
+    margin-left: 10px;
+}
+.checkbox{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.checkbox input{
+    width:18px;
+    height: 18px;
+      
+}
+.checkbox .Show{
+    margin-left: 10px;
+}
+.Sign{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:55px;
+}
+.Sign h4{
+    width: 130px;
+    color: #1a73e8;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.Sign h4:hover{
+    background-color: lightblue;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.Sign button{
+    width: 80px;
+    height: 35px;
+    background: #1a73e8;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Sign button:hover{
+  transform: scale(1.01);
+}
+.right_side img{
+    margin-left: 40px;
+ } 
+ .left_side input:focus{
+     outline: none;
+ } 
+
+
+
+
